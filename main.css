@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+  }
+  
+.page-title {
+  margin: 5px;
+  width: 100%;
+  border-bottom: 7px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+}
+
+
+.header-image-movies {
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: inline-block;
+  background-size: 100%;
+  background-image: url('https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=');
+}
+
+.header-image-books {
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  height: 450px;
+  display: inline-block;
+  background-size: 100%;
+  background-image: url('https://media.istockphoto.com/id/583816330/photo/diverse-group-of-friends-discussing-a-book-in-library.webp?s=1024x1024&w=is&k=20&c=H-qVf3OiNGJwTWrOUjGOT0U_Ht1XBJdK2nPXPSffzHc=');
+
+}
+
+.header-summary {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display: inline-block;
+
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: teal;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: teal;
+  position: fixed;
+  width: 100%;
+  }
+  
+a {
+  text-decoration: none;
+  color: teal;
+  }
+  
+.navbar1 {
+  top: 0;
+  padding: 1px 0 3px 0;
+  background-color: white;
+  }
+
+#logo {
+  font-weight: bold;
+  }
+
+.navbar1 a {
+  color: teal;
+  }
+.navbar2 {
+  top: 45px;
+  padding: 5px 0 5px 0;
+  background-color: cadetblue;
+  }
+  
+.navbar2 a {
+   color: white;
+  }
+.content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+
+.post-data {
+  border-bottom: 1px solid teal;
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+}
+
+  article {
+    margin-bottom: 100px;
+  }
+.articles {
+  background-color: #F0FFFF;
+  padding: 10px 20px;
+  border: 1px solid teal;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+  footer {
+   bottom: 0;
+   position: fixed;
+   background-color: cadetblue;
+   width: 100%;
+  }
+
+  .home-header {
+    color: white;
+    background-color: teal;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 50px 50px 50px 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: teal;
+    margin: 0;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    max-height: 350px;
+    border-radius: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    max-height: 350px;
+    border-radius: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.home-section {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  font-size: 20px;
+  background-color: white;
+  padding: 20px 10px 70px 10px;
+}
+
+
