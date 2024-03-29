@@ -1,21 +1,57 @@
-{% extends "layout2.html" %}
-{% block content %}
-<div class="landing-page">
-    <header class="home-header">
-        <h2>Review Me</h2>
-        <h2>"Because your opinion matters"</h2>
-    </header>
-    <div class="home-section">
-        <h2 class="left"><br><br>Share your thoughts on <br> your favorite books</h2>
-        <img class="right" src="https://images.pexels.com/photos/3847714/pexels-photo-3847714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="book review photo">
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+
+    {% if title %}
+        <title>ReviewMe - {{ title }}</title>
+    {% else %}
+        <title>ReviewMe</title>
+    {% endif %}
+</head>
+<body>
+    <div class="navbar navbar1">
+        <h3 id="logo">ReviewMe</h3>
+        <a href="/home">Home</a>
+        <a href="#">Sign In/Up</a>
     </div>
-    <div class="home-section">
-        <h2 class="left"><br><br>Find movie recommendations <br> based on real people reviews</h2>
-        <img class="right" src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="movie review photo">
+      
+    <div class="navbar navbar2">
+        <a href="/appliances">Appliances</a>
+        <a href="/movies">Movies</a>
+        <a href="/books">Books</a>
     </div>
-    <div class="home-section">
-        <h2 class="left"><br><br>Read what people have <br> to say about a product <br> before you buy it </h2>
-        <img class="right" src="https://images.pexels.com/photos/8154652/pexels-photo-8154652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="Appliances review photo">
+      
+    <div class="content">
+        <div class="landing-page">
+           <header class="home-header">
+                <h2>Review Me</h2>
+                <h2>"Because your opinion matters"</h2>
+            </header>
+            <div class="home-section">
+                <h2 class="left"><br><br>Share your thoughts on <br> your favorite books</h2>
+                <img class="right" src="https://images.pexels.com/photos/3847714/pexels-photo-3847714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="book review photo">
+            </div>
+            <div class="home-section">
+                <h2 class="left"><br><br>Find movie recommendations <br> based on real people reviews</h2>
+                <img class="right" src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="movie review photo">
+            </div>
+            <div class="home-section">
+                <h2 class="left"><br><br>Read what people have <br> to say about a product <br> before you buy it </h2>
+                <img class="right" src="https://images.pexels.com/photos/8154652/pexels-photo-8154652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=" alt="Appliances review photo">
+            </div>
+        </div>
     </div>
-</div>
-{% endblock %}
+    <footer>
+        <p> Website created by <strong>Amal Dahshan </strong> </p>
+        <p> Contact developer : 
+            <button>LinkedIn</button>
+            <button>Twitter</button>
+        </p>
+    </footer>
+</body>
+</html>
