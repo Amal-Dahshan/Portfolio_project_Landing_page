@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+<header>
+	<div class="page-title books">
+		<div class="header-image-books">
+		<h1 class="header-title">Book Reviews</h1>
+		<p class="header-summary">Read the latest book reviews from our community of book lovers</p>
+		</div>
+	</div>
+</header>
+	
+{% for post in posts %}
+	<article class="articles">
+		<div class="posts-section">
+		  <div class="post-data">
+			<a class="post-author" href="#">{{ post.author }}</a>
+			<small class="post-date">{{ post.date_posted }}</small>
+		  </div>
+		  <h2><a class="post-title" href="#">{{ post.title }}</a></h2>
+		  <p class="post-content">{{ post.content }}</p>
+		</div>
+	  </article>
+
+	{% endfor %}
+
+{% endblock %}

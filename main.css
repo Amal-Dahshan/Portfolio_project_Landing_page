@@ -6,7 +6,7 @@ body {
   }
   
 .page-title {
-  margin: 5px;
+  margin: 0;
   width: 100%;
   border-bottom: 7px solid white;
   padding-bottom: 20px;
@@ -45,6 +45,13 @@ body {
   display: inline-block;
 
 }
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: mediumorchid;
+}
+
 h1 {
   font-size: 50px;
   font-weight: bold;
@@ -91,7 +98,7 @@ a {
    color: white;
   }
 .content {
-    margin-top: 80px;
+    margin-top: 73px;
     display: flex;
     justify-content: center;
     
@@ -126,15 +133,16 @@ a {
   }
 
   .home-header {
-    color: white;
-    background-color: teal;
-    height: 400px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/12/19/51/americana-1512910_1280.png');
+    
+    height: 380px;
+    width: 100vw;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
-    padding: 50px 50px 50px 100px;
-    width: 100%;
-
+    padding: 20px 20px 20px 20px;
+    
+    
 }
 
 .landing-page {
@@ -142,32 +150,102 @@ a {
     height: 100%;
     background-color: white;
     color: teal;
-    margin: 0;
+    margin-top: 0;
+    align-items: center;
+    margin-bottom: 5vh;
 }
 
 .left {
     float: left;
-    width: 50%;
+    width: 30%;
     max-height: 350px;
-    border-radius: 50%;
-    margin: 20px 0 20px 0;
+    margin-left: 7vw;
+    font-size: 6vh;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-right: 0;
+    margin-top: 12vh;
+    padding-right: 0;
+    
 }
 
 .right {
     float: right;
-    width: 50%;
-    max-height: 350px;
+    width: 30%;
+    height: 250px;
     border-radius: 50%;
-    margin: 20px 0 20px 0;
-}
+    margin-right: 7vw;
+    margin-left: 0;
+    padding-top: 1vh;
+    margin-top: 5vh;
+} 
 
 .home-section {
-  height: 400px;
+  height: 350px;
   width: 100%;
   margin: 0;
+  margin-bottom: 3vh;
   font-size: 20px;
   background-color: white;
-  padding: 20px 10px 70px 10px;
+  padding: 0;
+}
+/* login page */
+.signup {
+  background-color: azure;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 2px solid teal;
 }
 
+.form-group {
+  margin: 10px;
+  padding: 3px;
+}
 
+.legend {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+.alert {
+  color: mediumorchid;
+  background-color: azure;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+
+}
+/* about page */
+.about {
+border: 1px solid teal;
+width: 40%;
+font-size: 4vh;
+padding: 15px;
+text-align: center;
+float: left;
+margin-left: 2vw;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.dark {
+  background-color: #6F7378;
+  color: white;
+  width: 40%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 2vw;
+  font-size: 4vh;
+  text-align: center;
+  float: right;
+}
+
+.about-page {
+  
+  text-align: center;
+}
