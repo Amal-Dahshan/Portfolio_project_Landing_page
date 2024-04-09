@@ -115,16 +115,15 @@ a {
   }
 
   .home-header {
-    background-image: url('https://cdn.pixabay.com/photo/2016/07/12/19/51/americana-1512910_1280.png');
-    
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220510/pngtree-excellent-rating-advertisement-background-benchmark-image_1344783.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 380px;
     width: 100vw;
     text-align: center;
     font-size: 40px;
     margin: 0;
     padding: 20px 20px 20px 20px;
-    
-    
 }
 
 .landing-page {
@@ -276,8 +275,8 @@ margin-bottom: 10px;
     width: 100%;
   }
   .home-header {
-    background-image: url('https://cdn.pixabay.com/photo/2016/07/12/19/51/americana-1512910_1280.png');
-    
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220510/pngtree-excellent-rating-advertisement-background-benchmark-image_1344783.jpg');
+    background-repeat: no-repeat;
     height: 380px;
     width: 100vw;
     text-align: center;
@@ -290,4 +289,5 @@ margin-bottom: 10px;
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
+}
 }
