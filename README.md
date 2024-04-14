@@ -1,5 +1,5 @@
 # ReviewMe 
-ReviewMe is a website for people to post their reviews on different products based on their personal experience. It's a place where users can register and have their own profile and they can write posts,edit/delete their posts or view other people's posts (reviews).
+ReviewMe is a web application (blog) for people to post their reviews on different products based on their personal experience. It's a place where users can register and have their own profile and they can write posts,edit/delete their posts or view other people's posts (reviews).
 
 ### Description:
 In today's digital age, online reviews have become an essential part of our decision-making process. Whether we are looking to purchase a new appliance, watch a movie, or read a book, we often turn to online reviews to help us make informed choices. That's where ReviewMe comes in.
